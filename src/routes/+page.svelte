@@ -22,6 +22,10 @@
 	const props = $props();
 </script>
 
+<svelte:head>
+	<title>Sunburn</title>
+</svelte:head>
+
 <div
 	data-theme="sunburn-day"
 	class="grid min-h-dvh w-full grid-cols-1 grid-rows-1 items-start justify-center bg-base-content text-base-100 lg:text-base-content"
