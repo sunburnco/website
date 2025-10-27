@@ -28,7 +28,7 @@
 
 <div
 	data-theme="sunburn-day"
-	class="grid min-h-dvh w-full grid-cols-1 grid-rows-1 items-start justify-center bg-base-content text-base-100 lg:text-base-content"
+	class="grid min-h-svh w-full grid-cols-1 grid-rows-1 items-start justify-center bg-base-content text-base-100 lg:text-base-content"
 >
 	<div class="col-start-1 row-start-1 w-full">
 		<img
@@ -52,7 +52,7 @@
 				<LucideGithub class="size-3 sm:size-5" />
 			</a>
 		</div>
-		<div class="mt-8 flex h-dvh flex-col items-center justify-center gap-4">
+		<div class="mt-8 flex h-svh flex-col items-center justify-center gap-4">
 			<h1 class="text-6xl font-bold lg:text-8xl">Sunburn</h1>
 			<h2 class="text-start font-mono text-xl font-bold lg:text-3xl">
 				Chat, voice, and video, <br class="sm:hidden" />
