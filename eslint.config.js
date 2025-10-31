@@ -46,7 +46,8 @@ export default ts.config(
 					args: 'after-used',
 					argsIgnorePattern: '^_'
 				}
-			]
+			],
+			'svelte/no-navigation-without-resolve': 'off'
 		}
 	},
 	{

@@ -8,6 +8,7 @@
 	} from '@lucide/svelte';
 	import { DateTime } from 'luxon';
 
+	import { env } from '$env/dynamic/public';
 	import Environments from '$lib/components/homepage/Environments.svelte';
 	import Frontend from '$lib/components/homepage/Frontend.svelte';
 	import NewsletterForm from '$lib/components/homepage/NewsletterForm.svelte';
@@ -17,7 +18,6 @@
 	import Base100ToBaseContent from '$lib/components/homepage/transitions/Base100ToBaseContent.svelte';
 	import BaseContentToAccent from '$lib/components/homepage/transitions/BaseContentToAccent.svelte';
 	import UI from '$lib/components/homepage/UI.svelte';
-	import { env } from '$env/dynamic/public';
 
 	const props = $props();
 </script>
