@@ -97,7 +97,7 @@
 
 <BaseContentToAccent />
 
-<div data-theme="sunburn-day" class="hero bg-accent px-4 pt-64 pb-24 text-base-content">
+<div data-theme="sunburn-day" class="hero bg-accent px-4 pt-24 pb-24 text-base-content md:pt-64">
 	<div class="hero-content flex-col-reverse justify-center gap-8 md:flex-row">
 		<!-- TODO add img -->
 		<div class="w-full overflow-hidden rounded-box shadow-2xl md:w-1/2">
@@ -119,7 +119,7 @@
 
 <AccentToBase100 />
 
-<div data-theme="sunburn-day" class="hero bg-base-100 px-4 pt-64 pb-24 text-base-content">
+<div data-theme="sunburn-day" class="hero bg-base-100 px-4 pt-24 pb-24 text-base-content md:pt-64">
 	<div class="hero-content flex-col justify-center gap-8 md:flex-row">
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
 			<h1 class="text-start font-mono text-5xl font-bold md:text-start">
@@ -140,7 +140,7 @@
 
 <Base100ToBaseContent />
 
-<div data-theme="sunburn-day" class="hero bg-base-content px-4 pt-64 pb-24 text-base-100">
+<div data-theme="sunburn-day" class="hero bg-base-content px-4 pt-24 pb-24 text-base-100 md:pt-64">
 	<div class="hero-content flex-col-reverse justify-center gap-8 md:flex-row">
 		<div class="w-full overflow-hidden rounded-box shadow-2xl sm:min-w-sm md:w-1/2">
 			<OpenSource />
@@ -176,7 +176,7 @@
 
 <BaseContentToAccent />
 
-<div data-theme="sunburn-day" class="hero bg-accent px-4 pt-64 pb-24 text-base-content">
+<div data-theme="sunburn-day" class="hero bg-accent px-4 pt-24 pb-24 text-base-content md:pt-64">
 	<div class="hero-content flex-col justify-center gap-8 md:flex-row">
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
 			<h1 class="text-start font-mono text-5xl font-bold md:text-start">Privately Owned</h1>
@@ -193,7 +193,7 @@
 
 <AccentToBase100 />
 
-<div data-theme="sunburn-day" class="hero bg-base-100 px-4 pt-64 pb-24 text-base-content">
+<div data-theme="sunburn-day" class="hero bg-base-100 px-4 pt-24 pb-24 text-base-content md:pt-64">
 	<div class="hero-content flex-col-reverse justify-center gap-8 md:flex-row">
 		<div
 			class="flex w-full overflow-hidden rounded-box border border-base-content/50 shadow-2xl sm:min-w-sm md:w-1/2"
@@ -277,8 +277,8 @@
 	<p class="inline">
 		&copy; {DateTime.now().year}
 		<a href="https://github.com/twopyramids" class="inline link" target="_blank">twopyramids</a>.
-		All rights reserved. | &ldquo;Sunburn,&rdquo; &ldquo;SunburnAuth,&rdquo; &ldquo;on.sb,&rdquo;
-		and the &ldquo;Two Pyramids&rdquo; logomark are trademarks of
+		All rights reserved. &ldquo;Sunburn,&rdquo; &ldquo;SunburnAuth,&rdquo; &ldquo;on.sb,&rdquo; and
+		the &ldquo;Two Pyramids&rdquo; logomark are trademarks of
 		<a href="https://github.com/twopyramids" class="inline link" target="_blank">twopyramids</a>.
 	</p>
 </footer>
