@@ -1,4 +1,5 @@
 <div class="relative aspect-10/2 size-full" data-theme="sunburn-day">
+	<div class="absolute top-0 z-10 h-2 w-full -translate-y-1/2 bg-base-100"></div>
 	<svg
 		width="100"
 		height="20"

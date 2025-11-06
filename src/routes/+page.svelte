@@ -158,9 +158,9 @@
 				Open Source
 			</h1>
 			<p>
-				We released Sunburn under the MIT license because we want to see widespread adoption of
-				Sunburn. This project wouldn&apos;t have been possible without the OSS community, and
-				we&apos;re proud to give back.
+				We released Sunburn under the MIT license hoping to fuel widespread adoption. This project
+				wouldn&apos;t have been possible without the OSS community, and we&apos;re proud to give
+				back.
 			</p>
 		</div>
 	</div>
