@@ -152,23 +152,12 @@
 					aria-label="heart"
 				/>
 				<br />
-				Fair Source
+				Open Source
 			</h1>
 			<p>
-				We can't call it "open source" because we released Sunburn under the
-				<a href="https://fsl.software" target="_blank" class="link">
-					Functional Source License (MIT edition)
-				</a>
-				, a license created by Sentry for their core offerings.
-			</p>
-			<p>
-				TL;DR: you have our permission to run Sunburn personally or professionally, publicly or
-				privately, on-prem or in the cloud. The only thing we ask is that you don't offer
-				Sunburn-as-a-service without our written approval.
-			</p>
-			<p>
-				Check out <a href="https://fsl.software" target="_blank" class="link">the FSL website</a>
-				to learn more about the license.
+				We released Sunburn under the MIT license because we want to see widespread adoption of
+				Sunburn. This project wouldn&apos;t have been possible without the OSS community, and
+				we&apos;re proud to give back.
 			</p>
 		</div>
 	</div>
@@ -274,7 +263,7 @@
 	data-theme="sunburn-day"
 	class="footer-center footer bg-neutral p-4 text-center text-neutral-content"
 >
-	<p class="inline">
+	<p class="mt-2 inline md:mt-0">
 		&copy; {DateTime.now().year}
 		<a href="https://github.com/twopyramids" class="inline link" target="_blank">twopyramids</a>.
 		All rights reserved. &ldquo;Sunburn,&rdquo; &ldquo;SunburnAuth,&rdquo; &ldquo;on.sb,&rdquo; and
