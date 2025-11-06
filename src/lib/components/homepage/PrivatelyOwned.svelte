@@ -4,7 +4,7 @@
 
 <div
 	data-theme="sunburn-day"
-	class="dots-100 relative flex aspect-video w-full flex-col items-center justify-center gap-4 overflow-hidden rounded-box"
+	class="dots-100 relative box-border flex aspect-video w-full flex-col items-center justify-center gap-4 overflow-hidden rounded-box border border-base-content/50"
 	style="box-shadow: inset 0 0 6rem rgb(0 0 0 / 0.2);"
 >
 	<a
