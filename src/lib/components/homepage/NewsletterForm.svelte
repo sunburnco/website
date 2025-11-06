@@ -24,7 +24,7 @@
 </script>
 
 <div data-theme="sunburn-day" class="flex size-full flex-col p-4 md:aspect-video">
-	<h2 class="text-center font-mono text-xl font-bold">Newsletter</h2>
+	<h2 class="text-center font-display text-xl font-bold">Newsletter</h2>
 	<div class="flex grow items-center">
 		{#if !form?.success}
 			<form
@@ -72,5 +72,5 @@
 			</div>
 		{/if}
 	</div>
-	<h2 class="invisible hidden font-mono text-xl md:block">.</h2>
+	<h2 class="invisible hidden font-display text-xl md:block">.</h2>
 </div>

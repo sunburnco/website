@@ -57,7 +57,7 @@
 		</div>
 		<div class="mt-8 flex h-svh flex-col items-center justify-center gap-4">
 			<h1 class="text-6xl font-bold lg:text-8xl">Sunburn</h1>
-			<h2 class="text-start font-mono text-xl font-bold lg:text-3xl">
+			<h2 class="text-start font-display text-xl font-bold lg:text-3xl">
 				Chat, voice, and video, <br class="sm:hidden" />
 				designed to self-host
 			</h2>
@@ -80,7 +80,7 @@
 >
 	<div class="hero-content flex-col justify-center gap-8 md:flex-row">
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-mono text-5xl font-bold md:text-start">Dope-Ass UI</h1>
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">Dope-Ass UI</h1>
 			<p>
 				Sunburn boasts a highly performant desktop-like UI where every call, channel, and server can
 				be its own draggable, resizable window.
@@ -107,7 +107,7 @@
 			<Environments />
 		</div>
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-mono text-5xl font-bold md:text-start">
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">
 				Your Instance,
 				<br />
 				Your Rules
@@ -125,7 +125,7 @@
 <div data-theme="sunburn-day" class="hero bg-base-100 px-4 pt-24 pb-24 text-base-content md:pt-64">
 	<div class="hero-content flex-col justify-center gap-8 md:flex-row">
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-mono text-5xl font-bold md:text-start">
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">
 				One Frontend Serves <br class="hidden sm:block md:hidden lg:block" />
 				All of Sunburn
 			</h1>
@@ -149,7 +149,7 @@
 			<OpenSource />
 		</div>
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-mono text-5xl font-bold md:text-start">
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">
 				Sunburn <LucideHeart
 					class="inline size-10 -translate-y-1.5 fill-primary"
 					aria-label="heart"
@@ -171,7 +171,7 @@
 <div data-theme="sunburn-day" class="hero bg-accent px-4 pt-24 pb-24 text-base-content md:pt-64">
 	<div class="hero-content flex-col justify-center gap-8 md:flex-row">
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-mono text-5xl font-bold md:text-start">Privately Owned</h1>
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">Privately Owned</h1>
 			<p>
 				Sunburn is a 100% privately owned passion project, meaning we work to please the community,
 				not shareholders. Our roadmap is primarily dictated by what our users want to see.
@@ -193,7 +193,7 @@
 			<NewsletterForm {...props} />
 		</div>
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-mono text-5xl font-bold md:text-start">On the Horizon</h1>
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">On the Horizon</h1>
 			<p>
 				<span class="font-semibold">
 					Sunburn<span class="font-script text-sm text-secondary md:text-base">Auth</span>
@@ -203,8 +203,7 @@
 				customization through
 				<span class="font-semibold">
 					Sunburn<span class="font-script text-sm text-secondary md:text-base">Auth</span>
-				</span>
-				.
+				</span>.
 			</p>
 			<p>
 				Don't want to self-host?
@@ -236,7 +235,7 @@
 		/>
 	</aside>
 	<nav>
-		<h4 class="footer-title font-mono normal-case">Contact</h4>
+		<h4 class="footer-title font-display normal-case">Contact</h4>
 		<a
 			class="inline-flex link items-center gap-1 link-hover"
 			href="https://github.com/sunburnco"
@@ -253,11 +252,11 @@
 		</a>
 	</nav>
 	<nav>
-		<h4 class="footer-title font-mono normal-case">Docs</h4>
+		<h4 class="footer-title font-display normal-case">Docs</h4>
 		<a class="link link-hover">Coming soon!</a>
 	</nav>
 	<nav>
-		<h4 class="footer-title font-mono normal-case">Legal</h4>
+		<h4 class="footer-title font-display normal-case">Legal</h4>
 		<a class="link link-hover">Terms of Service</a>
 		<a class="link link-hover">Privacy Policy</a>
 	</nav>
