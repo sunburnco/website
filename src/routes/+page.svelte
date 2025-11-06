@@ -24,6 +24,9 @@
 
 <svelte:head>
 	<title>Sunburn</title>
+	<meta name="description" content="Chat, voice, and video, designed to self-host." />
+	<meta name="theme-color" content="#fdf2cd" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
 <div
