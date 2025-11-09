@@ -223,44 +223,46 @@
 
 <Base100ToBaseContent />
 
-<footer
-	data-theme="sunburn-day"
-	class="footer bg-neutral px-12 pt-4 text-neutral-content sm:footer-horizontal"
->
-	<aside>
-		<img
-			src="/sunburn.png"
-			class="aspect-square max-w-32 rounded-box shadow-md"
-			alt="The Sunburn logo"
-		/>
-	</aside>
-	<nav>
-		<h4 class="footer-title font-display normal-case">Contact</h4>
-		<a
-			class="inline-flex link items-center gap-1 link-hover"
-			href="https://github.com/sunburnco"
-			target="_blank"
-		>
-			<LucideGithub size="1rem" /> GitHub
-		</a>
-		<a
-			class="inline-flex link items-center gap-1 link-hover"
-			href="mailto:hello@sunburn.co"
-			target="_blank"
-		>
-			<LucideMail size="1rem" /> hello@sunburn.co
-		</a>
-	</nav>
-	<nav>
-		<h4 class="footer-title font-display normal-case">Docs</h4>
-		<a class="link link-hover">Coming soon!</a>
-	</nav>
-	<nav>
-		<h4 class="footer-title font-display normal-case">Legal</h4>
-		<a class="link link-hover">Terms of Service</a>
-		<a class="link link-hover">Privacy Policy</a>
-	</nav>
-</footer>
+<div data-theme="sunburn-day" class="w-full bg-neutral">
+	<footer
+		data-theme="sunburn-day"
+		class="mx-auto footer max-w-7xl bg-neutral px-12 pt-4 text-neutral-content sm:footer-horizontal"
+	>
+		<aside>
+			<img
+				src="/sunburn.png"
+				class="aspect-square max-w-32 rounded-box shadow-md"
+				alt="The Sunburn logo"
+			/>
+		</aside>
+		<nav>
+			<h4 class="footer-title font-display normal-case">Contact</h4>
+			<a
+				class="inline-flex link items-center gap-1 link-hover"
+				href="https://github.com/sunburnco"
+				target="_blank"
+			>
+				<LucideGithub size="1rem" /> GitHub
+			</a>
+			<a
+				class="inline-flex link items-center gap-1 link-hover"
+				href="mailto:hello@sunburn.co"
+				target="_blank"
+			>
+				<LucideMail size="1rem" /> hello@sunburn.co
+			</a>
+		</nav>
+		<nav>
+			<h4 class="footer-title font-display normal-case">Docs</h4>
+			<a class="link link-hover">Coming soon!</a>
+		</nav>
+		<nav>
+			<h4 class="footer-title font-display normal-case">Legal</h4>
+			<a class="link link-hover">Terms of Service</a>
+			<a class="link link-hover">Privacy Policy</a>
+		</nav>
+	</footer>
+</div>
 <footer
 	data-theme="sunburn-day"
 	class="footer-center footer bg-neutral p-4 text-center text-neutral-content"
