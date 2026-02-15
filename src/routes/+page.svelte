@@ -4,7 +4,7 @@
 		LucideArrowRight,
 		LucideGithub,
 		LucideHeart,
-		LucideMail
+		LucideMail,
 	} from '@lucide/svelte';
 	import { DateTime } from 'luxon';
 
@@ -17,7 +17,7 @@
 	import AccentToBase100 from '$lib/components/homepage/transitions/AccentToBase100.svelte';
 	import Base100ToBaseContent from '$lib/components/homepage/transitions/Base100ToBaseContent.svelte';
 	import BaseContentToAccent from '$lib/components/homepage/transitions/BaseContentToAccent.svelte';
-	import UI from '$lib/components/homepage/UI.svelte';
+	import UI2 from '$lib/components/homepage/UI2.svelte';
 
 	const props = $props();
 </script>
@@ -80,20 +80,19 @@
 >
 	<div class="hero-content flex-col justify-center gap-8 md:flex-row">
 		<div class="flex w-full flex-col gap-4 text-xl md:w-1/2">
-			<h1 class="text-start font-display text-5xl font-bold md:text-start">Dope-Ass UI</h1>
+			<h1 class="text-start font-display text-5xl font-bold md:text-start">
+				Familiar &amp; Functional
+			</h1>
 			<p>
-				Sunburn boasts a highly performant desktop-like UI where every call, channel, and server can
-				be its own draggable, resizable window.
+				We designed Sunburn to be as light as possible, while keeping the layout you know and love.
+				In our testing, we consistently used &lt;100MB of RAM.
 			</p>
-			<p>
-				Keep everything looking slick with one of six built-in themes, or break up the monotony with
-				per-window theme configuration.
-			</p>
+			<p>Also, we included these six themes, free of charge. Enjoy.</p>
 		</div>
 		<!-- TODO add img -->
 		<!-- <img src="/sunburn.png" class="rounded-box aspect-video shadow-2xl md:max-w-md lg:max-w-lg" /> -->
 		<div class="w-full overflow-hidden rounded-box border border-base-100/50 shadow-2xl md:w-1/2">
-			<UI />
+			<UI2 />
 		</div>
 	</div>
 </div>
@@ -114,7 +113,7 @@
 			</h1>
 			<p>
 				Sunburn is designed to be hosted on your own hardware. It works perfectly on a LAN, on the
-				internet, or in airgapped environments.
+				internet, or in airgapped environments. Everything runs on a single port.
 			</p>
 		</div>
 	</div>
@@ -210,8 +209,8 @@
 				<span class="font-mono">
 					on.<span class="font-bold text-secondary">sb</span>
 				</span>
-				is our fully-managed Sunburn offering. We'll take care of backups, updates, and security, so
-				all you have to do is start using it.
+				is our fully-managed Sunburn offering. We'll take care of backups, updates, and security, so all
+				you have to do is start using it.
 			</p>
 			<p>
 				We also plan to release bot frameworks, so you can bring your applications to the Sunburn
@@ -258,8 +257,7 @@
 		</nav>
 		<nav>
 			<h4 class="footer-title font-display normal-case">Legal</h4>
-			<a class="link link-hover">Terms of Service</a>
-			<a class="link link-hover">Privacy Policy</a>
+			<a class="link link-hover">Coming soon!</a>
 		</nav>
 	</footer>
 </div>

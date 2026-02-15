@@ -17,7 +17,7 @@
 				...errorPrefix,
 				'error during form submission: ',
 				form.error,
-				'\nCan Cloudflare Turnstile verify your browser?'
+				'\nCan Cloudflare Turnstile verify your browser?',
 			);
 		}
 	});
@@ -34,8 +34,8 @@
 				use:enhance
 			>
 				<fieldset class="fieldset w-full">
-					<legend class="fieldset-legend">
-						<span>Email <span class="text-primary" title="Required">*</span></span>
+					<legend class="fieldset-legend font-display font-normal">
+						<span>Email<span class="text-primary" title="Required">*</span></span>
 					</legend>
 					<input
 						type="email"

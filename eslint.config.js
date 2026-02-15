@@ -23,10 +23,10 @@ export default ts.config(
 	{
 		plugins: {
 			'simple-import-sort': simpleImportSort,
-			'unused-imports': unusedImports
+			'unused-imports': unusedImports,
 		},
 		languageOptions: {
-			globals: { ...globals.browser, ...globals.node }
+			globals: { ...globals.browser, ...globals.node },
 		},
 		rules: {
 			// typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
@@ -44,11 +44,11 @@ export default ts.config(
 					vars: 'all',
 					varsIgnorePattern: '^_',
 					args: 'after-used',
-					argsIgnorePattern: '^_'
-				}
+					argsIgnorePattern: '^_',
+				},
 			],
-			'svelte/no-navigation-without-resolve': 'off'
-		}
+			'svelte/no-navigation-without-resolve': 'off',
+		},
 	},
 	{
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js', '**/*.ts'],
@@ -57,8 +57,8 @@ export default ts.config(
 				projectService: true,
 				extraFileExtensions: ['.svelte'],
 				parser: ts.parser,
-				svelteConfig
-			}
-		}
-	}
+				svelteConfig,
+			},
+		},
+	},
 );

@@ -24,7 +24,7 @@ export const actions: Actions = {
 		const res = await fetch(new URL('/api/subscribers', env.LM_BASE_URL), {
 			headers: {
 				Authorization,
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
 			},
 			method: 'POST',
 			body: JSON.stringify({
@@ -33,9 +33,9 @@ export const actions: Actions = {
 				status: 'enabled',
 				lists: [Number(LM_NEWSLETTER_ID)],
 				attribs: {
-					source: 'website'
-				}
-			})
+					source: 'website',
+				},
+			}),
 		});
 
 		if (res.status !== 200) {
@@ -45,5 +45,5 @@ export const actions: Actions = {
 		}
 
 		return { success: res.status === 200 };
-	}
+	},
 };
