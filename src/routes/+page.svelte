@@ -85,7 +85,6 @@
 			</h1>
 			<p>
 				We designed Sunburn to be as light as possible, while keeping the layout you know and love.
-				In our testing, we consistently used &lt;100MB of RAM.
 			</p>
 			<p>Also, we included these six themes, free of charge. Enjoy.</p>
 		</div>
