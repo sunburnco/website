@@ -84,13 +84,14 @@
 				Familiar &amp; Functional
 			</h1>
 			<p>
-				We designed Sunburn to be as light as possible, while keeping the layout you know and love.
+				No ads, no trackers, and no sponsored content. We designed Sunburn to be as light as
+				possible, while keeping the layout you know and love.
 			</p>
 			<p>Also, we included these six themes, free of charge. Enjoy.</p>
 		</div>
 		<!-- TODO add img -->
 		<!-- <img src="/sunburn.png" class="rounded-box aspect-video shadow-2xl md:max-w-md lg:max-w-lg" /> -->
-		<div class="w-full overflow-hidden rounded-box border border-base-100/50 shadow-2xl md:w-1/2">
+		<div class="w-full overflow-hidden rounded-box shadow-2xl sm:min-w-sm md:w-1/2">
 			<UI2 />
 		</div>
 	</div>
@@ -112,7 +113,7 @@
 			</h1>
 			<p>
 				Sunburn is designed to be hosted on your own hardware. It works perfectly on a LAN, on the
-				internet, or in airgapped environments. Everything runs on a single port.
+				internet, or in airgapped environments.
 			</p>
 		</div>
 	</div>

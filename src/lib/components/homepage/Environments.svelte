@@ -13,8 +13,9 @@
 		<div
 			data-theme="sunburn-sunset"
 			class={[
-				'peer/lan group/lan text-base-[oklch(0.9625_0.0476_90.06)] relative flex h-full flex-col items-center justify-center bg-[oklch(0.5188_0.1941_28.98)] transition-opacity'
+				'peer/lan group/lan text-base-[oklch(0.9625_0.0476_90.06)] relative flex h-full flex-col items-center justify-center bg-[oklch(0.5188_0.1941_28.98)] transition-opacity',
 			]}
+			tabindex="-1"
 			style="box-shadow: inset 0 0 4rem rgb(0 0 0 / 0.3);"
 		>
 			<div
@@ -30,8 +31,9 @@
 		<div
 			data-theme="sunburn-oasis"
 			class={[
-				'peer/internet group/internet relative flex h-full flex-col items-center justify-center bg-linear-to-b from-base-200 via-base-100 to-base-100 transition-opacity'
+				'peer/internet group/internet relative flex h-full flex-col items-center justify-center bg-linear-to-b from-base-200 via-base-100 to-base-100 transition-opacity',
 			]}
+			tabindex="-1"
 		>
 			<div
 				class="absolute top-1 left-1/2 -translate-x-1/2 text-lg font-bold sm:text-xl md:text-lg lg:text-xl"
@@ -46,8 +48,9 @@
 		<div
 			data-theme="sunburn-night"
 			class={[
-				'peer/airgap group relative flex h-full flex-col items-center justify-center bg-linear-to-r from-base-300 via-base-100 to-base-300 transition-opacity'
+				'peer/airgap group relative flex h-full flex-col items-center justify-center bg-linear-to-r from-base-300 via-base-100 to-base-300 transition-opacity',
 			]}
+			tabindex="-1"
 		>
 			<div
 				class="absolute top-1 left-1/2 -translate-x-1/2 text-lg font-bold sm:text-xl md:text-lg lg:text-xl"
@@ -64,8 +67,11 @@
 			class={[
 				'pointer-events-none absolute top-5/12 left-1/6 size-8 -translate-x-1/2 -translate-y-1/2 stroke-[oklch(0.9625_0.0476_90.06)] transition-[top_left_stroke] sm:size-12 md:size-8 lg:size-12',
 				'peer-hover/internet:left-1/2 peer-hover/internet:stroke-[oklch(0.22_0.12_210)]',
+				'peer-focus/internet:left-1/2 peer-focus/internet:stroke-[oklch(0.22_0.12_210)]',
 				'peer-hover/lan:left-1/6 peer-hover/lan:stroke-[oklch(0.9625_0.0476_90.06)]',
-				'peer-hover/airgap:left-5/6 peer-hover/airgap:stroke-[oklch(0.9625_0.0476_90.06)]'
+				'peer-focus/lan:left-1/6 peer-focus/lan:stroke-[oklch(0.9625_0.0476_90.06)]',
+				'peer-hover/airgap:left-5/6 peer-hover/airgap:stroke-[oklch(0.9625_0.0476_90.06)]',
+				'peer-focus/airgap:left-5/6 peer-focus/airgap:stroke-[oklch(0.9625_0.0476_90.06)]',
 			]}
 		>
 			<LucideSunburn size="100%" color="inherit" />

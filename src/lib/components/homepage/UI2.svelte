@@ -26,7 +26,7 @@
 
 <div
 	data-theme={activeTheme}
-	class="aspect-video"
+	class="aspect-video w-full"
 	style="box-shadow: inset 0 0 6rem rgb(0 0 0 / 0.2);"
 >
 	<div

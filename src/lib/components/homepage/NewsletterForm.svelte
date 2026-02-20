@@ -53,7 +53,9 @@
 							</span>
 						</legend>
 					{:else}
-						<legend class="fieldset-label">Unsubscribe at any time</legend>
+						<legend class="fieldset-label">
+							Unsubscribe at any time. Double opt-in required to receive emails.
+						</legend>
 					{/if}
 				</fieldset>
 
